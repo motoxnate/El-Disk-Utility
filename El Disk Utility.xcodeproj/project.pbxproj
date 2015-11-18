@@ -11,26 +11,7 @@
 		04D164501BFD02BF00C3605F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1644F1BFD02BF00C3605F /* ViewController.swift */; };
 		04D164521BFD02BF00C3605F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D164511BFD02BF00C3605F /* Assets.xcassets */; };
 		04D164551BFD02C000C3605F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D164531BFD02C000C3605F /* Main.storyboard */; };
-		04D164601BFD02C000C3605F /* El_Disk_UtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1645F1BFD02C000C3605F /* El_Disk_UtilityTests.swift */; };
-		04D1646B1BFD02C000C3605F /* El_Disk_UtilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1646A1BFD02C000C3605F /* El_Disk_UtilityUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		04D1645C1BFD02C000C3605F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04D164421BFD02BF00C3605F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04D164491BFD02BF00C3605F;
-			remoteInfo = "El Disk Utility";
-		};
-		04D164671BFD02C000C3605F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04D164421BFD02BF00C3605F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04D164491BFD02BF00C3605F;
-			remoteInfo = "El Disk Utility";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04D1644A1BFD02BF00C3605F /* El Disk Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "El Disk Utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,30 +20,10 @@
 		04D164511BFD02BF00C3605F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D164541BFD02C000C3605F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04D164561BFD02C000C3605F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04D1645B1BFD02C000C3605F /* El Disk UtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "El Disk UtilityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04D1645F1BFD02C000C3605F /* El_Disk_UtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = El_Disk_UtilityTests.swift; sourceTree = "<group>"; };
-		04D164611BFD02C000C3605F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04D164661BFD02C000C3605F /* El Disk UtilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "El Disk UtilityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04D1646A1BFD02C000C3605F /* El_Disk_UtilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = El_Disk_UtilityUITests.swift; sourceTree = "<group>"; };
-		04D1646C1BFD02C000C3605F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		04D164471BFD02BF00C3605F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04D164581BFD02C000C3605F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04D164631BFD02C000C3605F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +37,6 @@
 			isa = PBXGroup;
 			children = (
 				04D1644C1BFD02BF00C3605F /* El Disk Utility */,
-				04D1645E1BFD02C000C3605F /* El Disk UtilityTests */,
-				04D164691BFD02C000C3605F /* El Disk UtilityUITests */,
 				04D1644B1BFD02BF00C3605F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				04D1644A1BFD02BF00C3605F /* El Disk Utility.app */,
-				04D1645B1BFD02C000C3605F /* El Disk UtilityTests.xctest */,
-				04D164661BFD02C000C3605F /* El Disk UtilityUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,24 +59,6 @@
 				04D164561BFD02C000C3605F /* Info.plist */,
 			);
 			path = "El Disk Utility";
-			sourceTree = "<group>";
-		};
-		04D1645E1BFD02C000C3605F /* El Disk UtilityTests */ = {
-			isa = PBXGroup;
-			children = (
-				04D1645F1BFD02C000C3605F /* El_Disk_UtilityTests.swift */,
-				04D164611BFD02C000C3605F /* Info.plist */,
-			);
-			path = "El Disk UtilityTests";
-			sourceTree = "<group>";
-		};
-		04D164691BFD02C000C3605F /* El Disk UtilityUITests */ = {
-			isa = PBXGroup;
-			children = (
-				04D1646A1BFD02C000C3605F /* El_Disk_UtilityUITests.swift */,
-				04D1646C1BFD02C000C3605F /* Info.plist */,
-			);
-			path = "El Disk UtilityUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,42 +81,6 @@
 			productReference = 04D1644A1BFD02BF00C3605F /* El Disk Utility.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04D1645A1BFD02C000C3605F /* El Disk UtilityTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04D164721BFD02C000C3605F /* Build configuration list for PBXNativeTarget "El Disk UtilityTests" */;
-			buildPhases = (
-				04D164571BFD02C000C3605F /* Sources */,
-				04D164581BFD02C000C3605F /* Frameworks */,
-				04D164591BFD02C000C3605F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04D1645D1BFD02C000C3605F /* PBXTargetDependency */,
-			);
-			name = "El Disk UtilityTests";
-			productName = "El Disk UtilityTests";
-			productReference = 04D1645B1BFD02C000C3605F /* El Disk UtilityTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		04D164651BFD02C000C3605F /* El Disk UtilityUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04D164751BFD02C000C3605F /* Build configuration list for PBXNativeTarget "El Disk UtilityUITests" */;
-			buildPhases = (
-				04D164621BFD02C000C3605F /* Sources */,
-				04D164631BFD02C000C3605F /* Frameworks */,
-				04D164641BFD02C000C3605F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04D164681BFD02C000C3605F /* PBXTargetDependency */,
-			);
-			name = "El Disk UtilityUITests";
-			productName = "El Disk UtilityUITests";
-			productReference = 04D164661BFD02C000C3605F /* El Disk UtilityUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,14 +93,6 @@
 				TargetAttributes = {
 					04D164491BFD02BF00C3605F = {
 						CreatedOnToolsVersion = 7.1.1;
-					};
-					04D1645A1BFD02C000C3605F = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 04D164491BFD02BF00C3605F;
-					};
-					04D164651BFD02C000C3605F = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 04D164491BFD02BF00C3605F;
 					};
 				};
 			};
@@ -215,8 +110,6 @@
 			projectRoot = "";
 			targets = (
 				04D164491BFD02BF00C3605F /* El Disk Utility */,
-				04D1645A1BFD02C000C3605F /* El Disk UtilityTests */,
-				04D164651BFD02C000C3605F /* El Disk UtilityUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,20 +121,6 @@
 			files = (
 				04D164521BFD02BF00C3605F /* Assets.xcassets in Resources */,
 				04D164551BFD02C000C3605F /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04D164591BFD02C000C3605F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04D164641BFD02C000C3605F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,36 +136,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04D164571BFD02C000C3605F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04D164601BFD02C000C3605F /* El_Disk_UtilityTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04D164621BFD02C000C3605F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04D1646B1BFD02C000C3605F /* El_Disk_UtilityUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		04D1645D1BFD02C000C3605F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04D164491BFD02BF00C3605F /* El Disk Utility */;
-			targetProxy = 04D1645C1BFD02C000C3605F /* PBXContainerItemProxy */;
-		};
-		04D164681BFD02C000C3605F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04D164491BFD02BF00C3605F /* El Disk Utility */;
-			targetProxy = 04D164671BFD02C000C3605F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		04D164531BFD02C000C3605F /* Main.storyboard */ = {
@@ -404,58 +254,6 @@
 			};
 			name = Release;
 		};
-		04D164731BFD02C000C3605F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "El Disk UtilityTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.motoxnate.El-Disk-UtilityTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/El Disk Utility.app/Contents/MacOS/El Disk Utility";
-			};
-			name = Debug;
-		};
-		04D164741BFD02C000C3605F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "El Disk UtilityTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.motoxnate.El-Disk-UtilityTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/El Disk Utility.app/Contents/MacOS/El Disk Utility";
-			};
-			name = Release;
-		};
-		04D164761BFD02C000C3605F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "El Disk UtilityUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.motoxnate.El-Disk-UtilityUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "El Disk Utility";
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		04D164771BFD02C000C3605F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "El Disk UtilityUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.motoxnate.El-Disk-UtilityUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "El Disk Utility";
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -475,22 +273,7 @@
 				04D164711BFD02C000C3605F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		04D164721BFD02C000C3605F /* Build configuration list for PBXNativeTarget "El Disk UtilityTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04D164731BFD02C000C3605F /* Debug */,
-				04D164741BFD02C000C3605F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		04D164751BFD02C000C3605F /* Build configuration list for PBXNativeTarget "El Disk UtilityUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04D164761BFD02C000C3605F /* Debug */,
-				04D164771BFD02C000C3605F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
