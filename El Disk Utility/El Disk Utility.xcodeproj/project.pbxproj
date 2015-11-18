@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D1644E1BFD02BF00C3605F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1644D1BFD02BF00C3605F /* AppDelegate.swift */; };
+		04D164501BFD02BF00C3605F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1644F1BFD02BF00C3605F /* ViewController.swift */; };
+		04D164521BFD02BF00C3605F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D164511BFD02BF00C3605F /* Assets.xcassets */; };
+		04D164551BFD02C000C3605F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D164531BFD02C000C3605F /* Main.storyboard */; };
+		04D164601BFD02C000C3605F /* El_Disk_UtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1645F1BFD02C000C3605F /* El_Disk_UtilityTests.swift */; };
+		04D1646B1BFD02C000C3605F /* El_Disk_UtilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1646A1BFD02C000C3605F /* El_Disk_UtilityUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04D1645C1BFD02C000C3605F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D164421BFD02BF00C3605F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D164491BFD02BF00C3605F;
+			remoteInfo = "El Disk Utility";
+		};
+		04D164671BFD02C000C3605F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D164421BFD02BF00C3605F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D164491BFD02BF00C3605F;
+			remoteInfo = "El Disk Utility";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D1644A1BFD02BF00C3605F /* El Disk Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "El Disk Utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D1644D1BFD02BF00C3605F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04D1644F1BFD02BF00C3605F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04D164511BFD02BF00C3605F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D164541BFD02C000C3605F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04D164561BFD02C000C3605F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D1645B1BFD02C000C3605F /* El Disk UtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "El Disk UtilityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D1645F1BFD02C000C3605F /* El_Disk_UtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = El_Disk_UtilityTests.swift; sourceTree = "<group>"; };
+		04D164611BFD02C000C3605F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D164661BFD02C000C3605F /* El Disk UtilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "El Disk UtilityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D1646A1BFD02C000C3605F /* El_Disk_UtilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = El_Disk_UtilityUITests.swift; sourceTree = "<group>"; };
+		04D1646C1BFD02C000C3605F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D164471BFD02BF00C3605F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D164581BFD02C000C3605F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D164631BFD02C000C3605F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D164411BFD02BF00C3605F = {
+			isa = PBXGroup;
+			children = (
+				04D1644C1BFD02BF00C3605F /* El Disk Utility */,
+				04D1645E1BFD02C000C3605F /* El Disk UtilityTests */,
+				04D164691BFD02C000C3605F /* El Disk UtilityUITests */,
+				04D1644B1BFD02BF00C3605F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04D1644B1BFD02BF00C3605F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D1644A1BFD02BF00C3605F /* El Disk Utility.app */,
+				04D1645B1BFD02C000C3605F /* El Disk UtilityTests.xctest */,
+				04D164661BFD02C000C3605F /* El Disk UtilityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D1644C1BFD02BF00C3605F /* El Disk Utility */ = {
+			isa = PBXGroup;
+			children = (
+				04D1644D1BFD02BF00C3605F /* AppDelegate.swift */,
+				04D1644F1BFD02BF00C3605F /* ViewController.swift */,
+				04D164511BFD02BF00C3605F /* Assets.xcassets */,
+				04D164531BFD02C000C3605F /* Main.storyboard */,
+				04D164561BFD02C000C3605F /* Info.plist */,
+			);
+			path = "El Disk Utility";
+			sourceTree = "<group>";
+		};
+		04D1645E1BFD02C000C3605F /* El Disk UtilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				04D1645F1BFD02C000C3605F /* El_Disk_UtilityTests.swift */,
+				04D164611BFD02C000C3605F /* Info.plist */,
+			);
+			path = "El Disk UtilityTests";
+			sourceTree = "<group>";
+		};
+		04D164691BFD02C000C3605F /* El Disk UtilityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04D1646A1BFD02C000C3605F /* El_Disk_UtilityUITests.swift */,
+				04D1646C1BFD02C000C3605F /* Info.plist */,
+			);
+			path = "El Disk UtilityUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D164491BFD02BF00C3605F /* El Disk Utility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D1646F1BFD02C000C3605F /* Build configuration list for PBXNativeTarget "El Disk Utility" */;
+			buildPhases = (
+				04D164461BFD02BF00C3605F /* Sources */,
+				04D164471BFD02BF00C3605F /* Frameworks */,
+				04D164481BFD02BF00C3605F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "El Disk Utility";
+			productName = "El Disk Utility";
+			productReference = 04D1644A1BFD02BF00C3605F /* El Disk Utility.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04D1645A1BFD02C000C3605F /* El Disk UtilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D164721BFD02C000C3605F /* Build configuration list for PBXNativeTarget "El Disk UtilityTests" */;
+			buildPhases = (
+				04D164571BFD02C000C3605F /* Sources */,
+				04D164581BFD02C000C3605F /* Frameworks */,
+				04D164591BFD02C000C3605F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D1645D1BFD02C000C3605F /* PBXTargetDependency */,
+			);
+			name = "El Disk UtilityTests";
+			productName = "El Disk UtilityTests";
+			productReference = 04D1645B1BFD02C000C3605F /* El Disk UtilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04D164651BFD02C000C3605F /* El Disk UtilityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D164751BFD02C000C3605F /* Build configuration list for PBXNativeTarget "El Disk UtilityUITests" */;
+			buildPhases = (
+				04D164621BFD02C000C3605F /* Sources */,
+				04D164631BFD02C000C3605F /* Frameworks */,
+				04D164641BFD02C000C3605F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D164681BFD02C000C3605F /* PBXTargetDependency */,
+			);
+			name = "El Disk UtilityUITests";
+			productName = "El Disk UtilityUITests";
+			productReference = 04D164661BFD02C000C3605F /* El Disk UtilityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D164421BFD02BF00C3605F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = motoxnate;
+				TargetAttributes = {
+					04D164491BFD02BF00C3605F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					04D1645A1BFD02C000C3605F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 04D164491BFD02BF00C3605F;
+					};
+					04D164651BFD02C000C3605F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 04D164491BFD02BF00C3605F;
+					};
+				};
+			};
+			buildConfigurationList = 04D164451BFD02BF00C3605F /* Build configuration list for PBXProject "El Disk Utility" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D164411BFD02BF00C3605F;
+			productRefGroup = 04D1644B1BFD02BF00C3605F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D164491BFD02BF00C3605F /* El Disk Utility */,
+				04D1645A1BFD02C000C3605F /* El Disk UtilityTests */,
+				04D164651BFD02C000C3605F /* El Disk UtilityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D164481BFD02BF00C3605F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D164521BFD02BF00C3605F /* Assets.xcassets in Resources */,
+				04D164551BFD02C000C3605F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D164591BFD02C000C3605F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D164641BFD02C000C3605F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D164461BFD02BF00C3605F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D164501BFD02BF00C3605F /* ViewController.swift in Sources */,
+				04D1644E1BFD02BF00C3605F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D164571BFD02C000C3605F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D164601BFD02C000C3605F /* El_Disk_UtilityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D164621BFD02C000C3605F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D1646B1BFD02C000C3605F /* El_Disk_UtilityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04D1645D1BFD02C000C3605F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D164491BFD02BF00C3605F /* El Disk Utility */;
+			targetProxy = 04D1645C1BFD02C000C3605F /* PBXContainerItemProxy */;
+		};
+		04D164681BFD02C000C3605F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D164491BFD02BF00C3605F /* El Disk Utility */;
+			targetProxy = 04D164671BFD02C000C3605F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04D164531BFD02C000C3605F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D164541BFD02C000C3605F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D1646D1BFD02C000C3605F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04D1646E1BFD02C000C3605F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04D164701BFD02C000C3605F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "El Disk Utility/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.motoxnate.El-Disk-Utility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04D164711BFD02C000C3605F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "El Disk Utility/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.motoxnate.El-Disk-Utility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04D164731BFD02C000C3605F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "El Disk UtilityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.motoxnate.El-Disk-UtilityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/El Disk Utility.app/Contents/MacOS/El Disk Utility";
+			};
+			name = Debug;
+		};
+		04D164741BFD02C000C3605F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "El Disk UtilityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.motoxnate.El-Disk-UtilityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/El Disk Utility.app/Contents/MacOS/El Disk Utility";
+			};
+			name = Release;
+		};
+		04D164761BFD02C000C3605F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "El Disk UtilityUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.motoxnate.El-Disk-UtilityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "El Disk Utility";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		04D164771BFD02C000C3605F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "El Disk UtilityUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.motoxnate.El-Disk-UtilityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "El Disk Utility";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D164451BFD02BF00C3605F /* Build configuration list for PBXProject "El Disk Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D1646D1BFD02C000C3605F /* Debug */,
+				04D1646E1BFD02C000C3605F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D1646F1BFD02C000C3605F /* Build configuration list for PBXNativeTarget "El Disk Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D164701BFD02C000C3605F /* Debug */,
+				04D164711BFD02C000C3605F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04D164721BFD02C000C3605F /* Build configuration list for PBXNativeTarget "El Disk UtilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D164731BFD02C000C3605F /* Debug */,
+				04D164741BFD02C000C3605F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04D164751BFD02C000C3605F /* Build configuration list for PBXNativeTarget "El Disk UtilityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D164761BFD02C000C3605F /* Debug */,
+				04D164771BFD02C000C3605F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D164421BFD02BF00C3605F /* Project object */;
+}
