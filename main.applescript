@@ -8,7 +8,7 @@ to getWhole(diskChoice)
 end getWhole
 
 to getDiskID(diskChoice)
-	set driveName to distChoice
+	set driveName to diskChoice
 	set getDriveIdentifier to "diskutil info \"" & (driveName as text) & "\" | grep Ident | awk '{print $3}'"
 	set driveIdentifier to do shell script getDriveIdentifier as text
 	set diskID to characters 1 thru 5 of driveIdentifier as text
@@ -24,7 +24,7 @@ end getPartitionID
 choose from list activityList with title "Disk Utility" with prompt "Choose an Action:"
 if the result is not false then
 	set activity to the result
-	
+
 	if activity contains "Secure Erase" then
 		choose from list diskList with title activity with prompt "Choose which disk to " & activity & ":"
 		if the result is not false then
@@ -87,7 +87,7 @@ if the result is not false then
 				end tell
 			end if
 		end if
-		
+
 	else if activity contains "Repair" then
 		choose from list diskList with title activity with prompt "Choose which disk to " & activity & ":"
 		if the result is not false then
@@ -119,7 +119,7 @@ if the result is not false then
 				end tell
 			end if
 		end if
-		
+
 	else
 		choose from list diskList with title activity with prompt "Choose which disk to " & activity & ":"
 		if the result is not false then
