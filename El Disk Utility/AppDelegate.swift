@@ -24,3 +24,43 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 }
 
+/*
+
+When you need to localize in the code, use this function.
+
+Usage:
+	"[string key]".localized
+
+This returns the value of [string key] defined in Localizable.strings.
+
+Example:
+	myLabel.text = "Hi".localized
+
+*/
+
+extension String {
+	var localized: String {
+		return NSLocalizedString(self, tableName: nil, bundle: NSBundle.mainBundle(), value: "", comment: "")
+	}
+}
+
+/*
+
+Example:
+
+Strings File:
+>	//Localizable.strings:
+>
+>	/* with !!! */
+>	"Hi" = "Привет!!!";
+
+Usage:
+	myLabel.text = "Hi".localizedWithComment("with !!!")
+
+*/
+
+extension String {
+	func localizedWithComment(comment:String) -> String {
+		return NSLocalizedString(self, tableName: nil, bundle: NSBundle.mainBundle(), value: "", comment: comment)
+	}
+}
