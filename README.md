@@ -6,6 +6,7 @@ I have not yet added the ability to select multiple drives at once, but you can 
 Thanks for your support!
 
 11/17/15 - UPDATE Version 1.2
+
 -Fixed bug where the Startup Drive could not be used.
 
 -Added warning that modifying the boot volume can damage user data.
