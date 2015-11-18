@@ -20,6 +20,7 @@
 		04D164511BFD02BF00C3605F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D164541BFD02C000C3605F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04D164561BFD02C000C3605F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D1647A1BFD08F000C3605F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 				04D1644B1BFD02BF00C3605F /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		04D1644B1BFD02BF00C3605F /* Products */ = {
 			isa = PBXGroup;
@@ -143,6 +145,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				04D164541BFD02C000C3605F /* Base */,
+				04D1647A1BFD08F000C3605F /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
