@@ -1,8 +1,13 @@
-tell application "Finder" to set diskList to the name of every disk whose local volume is true and startup is false
+tell application "Finder" to set diskList to the name of every disk whose local volume is true
 set activityList to {"Secure Erase", "Verify", "Repair", "Mount", "Unmount"}
+tell application "Finder" to set bootVolume to the name of every disk whose local volume is true and startup is true
+set editStartup to false
 
 to getWhole(diskChoice)
 	set driveName to diskChoice
+	if diskChoice is bootVolume then
+		display dialog "The selected disk is the Startup Disk. Modifying it may damage your data or not be possible. Would you like to continue?" buttons {"Yes", "No"} default button 1
+	end if
 	set wholeCheck to "diskutil info \"" & (driveName as text) & "\" | grep Whole | grep -v \"Part of\" | awk '{print $2}'"
 	set getWhole to do shell script wholeCheck as text
 end getWhole
@@ -24,7 +29,6 @@ end getPartitionID
 choose from list activityList with title "Disk Utility" with prompt "Choose an Action:"
 if the result is not false then
 	set activity to the result
-
 	if activity contains "Secure Erase" then
 		choose from list diskList with title activity with prompt "Choose which disk to " & activity & ":"
 		if the result is not false then
@@ -87,7 +91,6 @@ if the result is not false then
 				end tell
 			end if
 		end if
-
 	else if activity contains "Repair" then
 		choose from list diskList with title activity with prompt "Choose which disk to " & activity & ":"
 		if the result is not false then
@@ -119,7 +122,6 @@ if the result is not false then
 				end tell
 			end if
 		end if
-
 	else
 		choose from list diskList with title activity with prompt "Choose which disk to " & activity & ":"
 		if the result is not false then
