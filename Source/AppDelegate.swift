@@ -2,8 +2,7 @@
 //  AppDelegate.swift
 //  El Disk Utility
 //
-//  Created by Corey Stewart on 11/18/15.
-//  Copyright © 2015 motoxnate. All rights reserved.
+//  Copyright © 2015 motoxnate.
 //
 
 import Cocoa
