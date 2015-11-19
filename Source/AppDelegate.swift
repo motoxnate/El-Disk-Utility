@@ -64,3 +64,5 @@ extension String {
 		return NSLocalizedString(self, tableName: nil, bundle: NSBundle.mainBundle(), value: "", comment: comment)
 	}
 }
+
+

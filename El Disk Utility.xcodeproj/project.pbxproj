@@ -39,15 +39,28 @@
 		0416EEF21BFD351A00F69195 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				04D164561BFD02C000C3605F /* Info.plist */,
+				04D164531BFD02C000C3605F /* Main.storyboard */,
+				04D164511BFD02BF00C3605F /* Assets.xcassets */,
 				0416EEF31BFD35C500F69195 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = SOURCE_ROOT;
 		};
+		047F1EE01BFD3D81000902D9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				04D1644F1BFD02BF00C3605F /* ViewController.swift */,
+				04D1644D1BFD02BF00C3605F /* AppDelegate.swift */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
+		};
 		04D164411BFD02BF00C3605F = {
 			isa = PBXGroup;
 			children = (
-				04D1644C1BFD02BF00C3605F /* El Disk Utility */,
+				047F1EE01BFD3D81000902D9 /* Source */,
+				0416EEF21BFD351A00F69195 /* Resources */,
 				04D1644B1BFD02BF00C3605F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,19 +72,6 @@
 				04D1644A1BFD02BF00C3605F /* El Disk Utility.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		04D1644C1BFD02BF00C3605F /* El Disk Utility */ = {
-			isa = PBXGroup;
-			children = (
-				0416EEF21BFD351A00F69195 /* Resources */,
-				04D1644D1BFD02BF00C3605F /* AppDelegate.swift */,
-				04D1644F1BFD02BF00C3605F /* ViewController.swift */,
-				04D164511BFD02BF00C3605F /* Assets.xcassets */,
-				04D164531BFD02C000C3605F /* Main.storyboard */,
-				04D164561BFD02C000C3605F /* Info.plist */,
-			);
-			path = "El Disk Utility";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
